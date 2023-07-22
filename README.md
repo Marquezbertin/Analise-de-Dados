@@ -10,7 +10,7 @@ Crie um novo notebook Python clicando em "Novo notebook".
 Passo 2: Importação de bibliotecas e carregamento dos dados
 Vamos começar importando as bibliotecas necessárias e carregando os dados no nosso notebook.
 
-Pitão
+Python
 
 Copiar código
 
