@@ -1,7 +1,7 @@
 # Projeto de Análise de Dados com Python utilizando Google Colab
 Este é um projeto de análise de dados com Python, onde usaremos o ambiente do Google Colab para realizar uma análise exploratória de um conjunto de dados. O Google Colab é uma plataforma gratuita baseada em nuvem que permite a execução de notebooks Jupyter com suporte a Python e acesso a GPUs e TPUs.
 
-Neste projeto, vamos analisar um conjunto de dados fictícios de vendas de uma empresa durante um ano. Faremos a limpeza, exploração e visualização dos dados para obter insights importantes sobre o desempenho das vendas.
+Neste projeto, vamos analisar um conjunto de dados.
 
 Passo 1: Configuração do ambiente
 Acesse o site do Google Colab .
@@ -65,27 +65,7 @@ dados.drop_duplicates(inplace=True)
 Passo 5: Análise e visualização dos dados
 Agora que os dados estão limpos, podemos realizar análises e criar visualizações para obter insights.
 
-Pitão
-
-Copiar código
-
-# Exemplo de análise: Vendas mensais ao longo do ano
-
-dados['Data'] = pd.to_datetime(dados['Data'])
-dados['Mês'] = dados['Data'].dt.month
-vendas_mensais = dados.groupby['Mês']('ValorVenda').sum()
-
-# Visualização: Gráfico de barras das vendas mensais
-
-plt.bar(vendas_mensais.index, vendas_mensais.values)
-plt.xlabel('Mês')
-plt.ylabel('Total de Vendas')
-plt.title('Vendas Mensais')
-plt.show()
-Passo 6: Conclusão e insights
-Nesta etapa, você pode fazer entender sobre os dados analisados ​​e apresentar os insights obtidos ao realizar a análise.
-
-Passo 7: Exportar resultados (opcional)
+Passo 6: Exportar resultados (opcional)
 Caso queira salvar o notebook com os resultados da análise, você pode exportá-lo para o seu Google Drive ou em outro formato como PDF ou HTML.
 
 Com isso, você concluiu o projeto de análise de dados com Python utilizando o Google Colab. Lembre-se de que este é apenas um exemplo e que a análise de dados pode ser bastante satisfatória, dependendo do conjunto de dados e dos objetivos do projeto.
